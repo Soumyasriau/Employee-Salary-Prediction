@@ -1,3 +1,7 @@
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+import os
+import os
 import streamlit as st
 import joblib
 import numpy as np
